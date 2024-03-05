@@ -22,6 +22,8 @@ void    ft_print_comb(void)
                 write(1, &first, 1);
                 write(1, &second, 1);
                 write(1, &third, 1);
+                if (first == '7' && second == '8' && third == '9')
+                    break;
                 write(1, &comma, 1);
                 write(1, &space, 1);
                 third++;
